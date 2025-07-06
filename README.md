@@ -135,6 +135,57 @@
 
 
 
+## Create a Simple Jenkins Job (Freestyle)
+
+### This job lets Jenkins run basic commands like checking your code or printing messages.
+
+## Steps:
+
+### Go to Jenkins dashboard → click “New Item”
+
+13
+
+### I will name it Freestyle-Firstjob. Select Freestyle project and click OK
+
+14
+
+### Configuring free style job
+
+15
+
+- Under Build, I will add a "Shell Command" with this:
+
+16
+
+`echo "This is my first Jenkins build job!"`
+
+- Then I will Click Build Now and the message will be printed in the console.
+
+17
+
+
+## Pipeline Job + Jenkinsfile (CI/CD Automation)
+
+### Configuring job with pipeline
+
+18
+
+### Creating Jenkinsfile
+
+19
+
+### Jenkins Pipeline Configuration
+
+20
+
+21
+
+22
+
+
+
+
+
 
 
 
