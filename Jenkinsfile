@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Pull Code') {
       steps {
-        git 'https://github.com/GodwinChukks/Introd-Jenkins.git'
+        git branch: 'main', url: 'https://github.com/GodwinChukks/Introd-Jenkins.git'
+
       }
     }
     stage('Build') {
