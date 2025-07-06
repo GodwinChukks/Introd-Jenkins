@@ -143,44 +143,48 @@
 
 ### Go to Jenkins dashboard → click “New Item”
 
-13
+![image](screenshot2/13.PNG)
 
 ### I will name it Freestyle-Firstjob. Select Freestyle project and click OK
 
-14
+![image](screenshot2/14.PNG)
 
 ### Configuring free style job
 
-15
+![image](screenshot2/15.PNG)
 
 - Under Build, I will add a "Shell Command" with this:
 
-16
+![image](screenshot2/16.PNG)
 
 `echo "This is my first Jenkins build job!"`
 
 - Then I will Click Build Now and the message will be printed in the console.
 
-17
+![image](screenshot2/17.PNG)
 
 
 ## Pipeline Job + Jenkinsfile (CI/CD Automation)
 
 ### Configuring job with pipeline
 
-18
+![image](screenshot2/18.PNG)
 
 ### Creating Jenkinsfile
 
-19
+![image](screenshot2/19.PNG)
 
 ### Jenkins Pipeline Configuration
 
-20
+![image](screenshot2/20.PNG)
 
-21
+![image](screenshot2/21.PNG)
 
-22
+![image](screenshot2/22.PNG)
+
+### Jenkins Pipeline Susscessfully executed
+
+![image](screenshot2/23.PNG)
 
 
 
